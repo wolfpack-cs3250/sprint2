@@ -1,6 +1,9 @@
 # sprint2
 Sprint 2
 
+Developers:
+  Sal Camara
+
 Notes:
 
 - Moustache as our templating engine
