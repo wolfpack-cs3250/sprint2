@@ -3,6 +3,14 @@ Sprint 2
 
 Developers:
   Sal Camara
+  Ben Connell
+  Jason Gambino
+  Amber Davis 
+  Giang (Kevin) Dinh
+Product Owner:
+  Derek Dinh 
+Scrum Master:
+  James Essad
 
 Notes:
 
