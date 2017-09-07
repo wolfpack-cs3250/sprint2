@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" basedir=".">
-<project name="banner-project" default="all">
+<?xml version="1.0" defencoding="UTF-8" >
+<project name="banner-project" default="all" basedir=".">
   
   
   <property file="build.properties"/>
