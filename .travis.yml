@@ -1,4 +1,6 @@
 language: java
+sudo: false
 
-jdk:
-  - oraclejdk8
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.5.1'
+}
