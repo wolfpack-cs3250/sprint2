@@ -4,7 +4,7 @@ Sprint 2
 Developers:
   Sal Camara
   Ben Connell
-  Jason Gambino
+  *Jason Gambino*
   Amber Davis 
   Giang (Kevin) Dinh
 Product Owner:
