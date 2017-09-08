@@ -14,4 +14,5 @@ public class BannerProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BannerProjectApplication.class, args);
 	}
+        }
 }
