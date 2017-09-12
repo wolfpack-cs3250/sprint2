@@ -1,12 +1,12 @@
-package com.example.bannerproject;
+package com.banner.bannerApplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BannerProjectApplication {
+public class BannerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BannerProjectApplication.class, args);
+		SpringApplication.run(BannerApplication.class, args);
 	}
 }
