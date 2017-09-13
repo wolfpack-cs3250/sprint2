@@ -1,4 +1,4 @@
-package com.banner.bannerApplication;
+package com.banner.bannerApplication.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
