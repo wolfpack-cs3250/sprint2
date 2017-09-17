@@ -1,24 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Wolfpack School Management</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width"/>
+    <base href="/"/>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color:#C0C0C0">
+	<h1>Wolfpack School Management System Welcomes You!</h1>
+	<br>
+	<h2>We have options for you:</h2>
+	<br>
+	        
+        <div class="container">
+	<form action="/create" method="get">
+	<input type="hidden"  name="${_csrf.parameterName}"   value="${_csrf.token}"/>                                              <button type="submit" class="btn btn-danger">Create an Account</button>
+        </form>
+	</div>
+	<br>
 
+<<<<<<< HEAD
+	<div class="container">
+	<form action="/update" method="get">
+        <input type="hidden"  name="${_csrf.parameterName}"   value="${_csrf.token}"/>                                             <button type="submit" class="btn btn-danger">Update an Account</button>
+        </form>
+	</div>
+	<br>
+=======
 {{>header}}
+>>>>>>> 6eed4a8fab5487c39a1ef158bf1b199b283c699f
 
-<p> Create User:</p>
-<form action="/userpage/add">
-    <label for="firstname">First name: </label>
-    <input type="text" name="firstname" />
+	<div class="container">
+        <form action="/edit" method="get">
+        <input type="hidden"  name="${_csrf.parameterName}"   value="${_csrf.token}"/>                                              <button type="submit" class="btn btn-danger">Edit an Account</button>
+        </form>
+	</div>
+	<br>
 
-    <label for="lastname">Last name: </label>
-    <input type="text" name="lastname" />
-    <button type="submit" >Submit</button>
-</form>
-
-{{>footer}}
-
+	<div class="container">
+	<form action="/delete" method="get">
+        <input type="hidden"  name="${_csrf.parameterName}"   value="${_csrf.token}"/>                                              <button type="submit" class="btn btn-danger">Delete an Account</button>
+        </form>
+	</div>
+	<br>
 </body>
 </html>
