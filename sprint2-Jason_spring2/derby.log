@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-8u131-b11-2ubuntu1.17.04.3-b11
+user.dir=/home/neb/Downloads/sprint2
+os.name=Linux
+os.arch=amd64
+os.version=4.10.0-33-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
