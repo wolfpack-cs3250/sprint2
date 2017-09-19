@@ -1,4 +1,4 @@
-package com.example;
+package com.banner.bannerApplication;
 
 import java.util.Map;
 
