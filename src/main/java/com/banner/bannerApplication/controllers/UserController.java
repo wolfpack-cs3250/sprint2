@@ -21,6 +21,16 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
+    @GetMapping(path="")
+    public @ResponseBody String userpage() {
+        return "userpage";
+    }
+
+    @GetMapping(path="create")
+    public String create(){
+        return"userpage.add";
+    }
+
     @GetMapping(path="/add")
     public @ResponseBody String addNewUser (@RequestParam String firstname,
                                             @RequestParam String lastname) {
@@ -30,6 +40,14 @@ public class UserController {
         userRepository.save(n);
         return "Saved";
     }
+
+        /*
+    @GetMapping(value="/new")
+    public ModelAndView createStudent() {
+        return new ModelAndView( "students/students.create", "student, new Student());
+    }
+    */
+
 
     /*
     @GetMapping(path="/")
